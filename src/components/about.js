@@ -50,7 +50,7 @@ const About = () => {
                             </h3>
                             <div className={styles.description}>
                                 <p data-sal="slide-up">
-                                    <strong>Aloha! My name is Jay</strong>. I'm a <strong>software developer</strong> and a recent college graduate from the islands of <strong>Hawai'i</strong>.
+                                    <strong>Aloha! My name is Jay</strong>. I'm a <strong>software engineer</strong> from the islands of <strong>Hawai'i</strong>.
                                 </p>
                                 <p data-sal="slide-up" data-sal-delay="200"> 
                                     I love coding, security, astronomy, and the beach.
