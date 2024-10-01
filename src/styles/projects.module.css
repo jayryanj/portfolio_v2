@@ -1,0 +1,31 @@
+.projects {
+    padding-top: 3vh;
+    padding: 3vh 5vw;
+    background-color: white;
+}
+
+.headerDivider {
+    margin-top: 4em !important;
+}
+
+.header {
+    font-size: 3.5em;
+    color: #324e37;
+    margin: 0 !important;
+}
+
+.subHeader {
+    color: #4a524b;
+    font-size: 1.5em;
+}
+
+.projectList {
+    list-style-type: none;
+    list-style: none;
+    padding: 0 !important;
+}
+
+.projectListItem {
+    margin-top: 8em;
+    margin-bottom: 8em;
+}

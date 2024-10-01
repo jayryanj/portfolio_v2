@@ -1,0 +1,130 @@
+.project {
+    background-color: white;
+}
+
+.projectContainer {
+    padding: 1em 10em 6em !important;
+}
+
+.backIcon,.backButton p {
+    color: #4d8f58;
+    font-size: 1.5em;
+}
+
+.name {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 3.25em;
+    color: #324e37;
+}
+
+.summary {
+    text-align: center;
+    font-size: 1.4em;
+    color: #557e5b;
+    line-height: 1.8em;
+}
+
+.tags {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    padding: 0 !important;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.tagItem {
+    color: #4d8f58;
+    width: fit-content;
+    border: 1px solid #4d8f58;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.coverImage {
+    border-radius: 0.6em;
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.35); 
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.25);
+    margin: 4em 0;
+}
+
+.header2 {
+    margin-top: 1.4em;
+    font-size: 2.5em;
+    color: #324e37;
+}
+
+.objective, .results, .links {
+    font-size: 1.2em;
+    color: #525252;
+    line-height: 2.2em;
+}
+
+.technologies {
+    justify-content: left;
+    gap: 1.2em;
+}
+
+.techItem {
+    color: #4d8f58;
+    width: fit-content;
+    border: 1px solid #4d8f58;
+    padding: 0.4em;
+    border-radius: 6px;
+    font-size: 1.35em;
+    letter-spacing: 0.1em;
+    animation: techNotHover 0.13s;
+}
+
+.techItem:hover {
+    box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.3);
+    animation: techHover 0.13s;
+    animation-iteration-count: 1;
+    transform: scale(1.15);
+}
+
+.links {
+    list-style: none;
+    padding: 0 !important;
+    font-size: 1.4em;
+}
+
+@keyframes techNotHover {
+    0% {
+        box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.3);
+        transform: scale(1.15);
+    }
+    100% {
+        color: #4d8f58;
+        box-shadow: none;
+        transform: scale(1);
+    }
+}
+
+@keyframes techHover {
+    0% {
+        color: #4d8f58;
+        box-shadow: none;
+        transform: scale(1);
+    }
+    100% {
+        box-shadow: 0px 5px 15px -1px rgba(0,0,0,0.3);
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 900px) {
+    .projectContainer {
+        padding: 2.2em !important;
+    }
+
+    .links {
+        font-size: 1em;
+    }
+}
