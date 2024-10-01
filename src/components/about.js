@@ -6,11 +6,13 @@ import * as styles from "../styles/about.module.css";
 
 const About = () => {
     const tools = [
+        "Java",
         "JavaScript",
+        "Python",
+        "Kotlin",
+        "AWS",
         "HTML",
         "CSS",
-        "Java",
-        "Python",
         "Spring",
         "Node.js",
         "React",
@@ -18,10 +20,14 @@ const About = () => {
         "Material UI",
         "Gatsby",
         "MongoDB",
+        "PostgreSQL",
+        "Splunk",
+        "Terraform",
         "Headless CMS",
         "RESTful APIs",
         "Git",
         "GitHub",
+        "Bitbucket",
         "AEM",
     ]
 
